@@ -1,0 +1,15 @@
+body {
+  background-color:aqua;
+}
+h1 {
+  color: magenta;
+}
+p {
+  color:gray;
+}
+aside p {
+  color: green;
+}
+footer a {
+  color: red;
+}
