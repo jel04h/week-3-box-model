@@ -1,7 +1,63 @@
+h1:hover {
+  color: chocolate;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+header {
+  text-align: center;
+  margin: auto;
+  width: 90%;
+  border: 1px solid grey;
+}
+
+article {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+  border: 1px solid grey;
+}
+
+p::first-letter {
+  font-size: 2em;
+  color: crimson;
+}
+
+footer {
+  border: 1px solid grey;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 .highlight {
   color: orange;
 }
-/* to space means this apples to aside tags that have a class of highlight! */
+
 aside.highlight {
   background-color: black;
 }
@@ -15,4 +71,8 @@ aside.highlight {
 a:hover {
   color: red;
   font-size: 2em;
-}
+} 
+
+*/
+
+/* to space means this apples to aside tags that have a class of highlight! */
