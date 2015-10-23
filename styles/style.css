@@ -1,15 +1,18 @@
-body {
-  background-color:aqua;
+.highlight {
+  color: orange;
 }
-h1 {
-  color: magenta;
+/* to space means this apples to aside tags that have a class of highlight! */
+aside.highlight {
+  background-color: black;
 }
-p {
-  color:gray;
+
+#homepage {
+  width: 80%;
+  margin: auto;
+  border: 2px solid black;
 }
-aside p {
-  color: green;
-}
-footer a {
+
+a:hover {
   color: red;
+  font-size: 2em;
 }
